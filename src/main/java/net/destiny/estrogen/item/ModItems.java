@@ -24,6 +24,6 @@ public class ModItems {
     public static void registerModItems() {
         Estrogen.LOGGER.info("Registering Mod Items for" + Estrogen.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
